@@ -17,9 +17,15 @@ Next, see the below sections to use other features that come with this starter t
   * [How to write/run tests](#get-started-with-testing)
   * [How to use the linter](#get-started-with-linting)
 
+## Get Started with Writing Code
+All/most of the code that you will write for your project will live in the `application` folder.
+
+This is where you will create all the code needed for your application to run. If you are creating an API, your endpoints will go here. If you're creating a website, your HTML and css will go into folders which should live within the`/application` folder.
+Next, learn all about where to write tests in [this section](#get-started-with-testing) below
+
 
 ## Get Started with Testing
-This project comes preinstalled with the [Jest](https://github.com/facebook/jest) dependency. Jest is a hugely popular and easy to use test library. There are other testing libraries out there, but I find this to be easy to use and works well. 
+This project comes preinstalled with the [Jest](https://github.com/facebook/jest) dependency. **Jest** is a hugely popular and easy to use test library. There are other testing libraries out there, but I find this to be easy to use and works well. 
 
 You can read more about Jest on their website [here](https://jestjs.io/).
 
