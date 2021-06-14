@@ -1,6 +1,6 @@
 # Node.JS Starter Template
 
-The goal of this repository is to offer a quick way to get up and running with a Node.Js already configured with the basics that all/most Node.JS projects require.
+The goal of this repository is to offer a quick way to get up and running with a Node.Js project already configured with the basics that all/most Node.JS projects require.
 
 With this template you will have a "Hello World" application, with a [Test Suite](#get-started-with-testing) hooked up, and a [Linter](#get-started-with-linting) preconfigured to catch syntax errors, coding mistakes, ect.
 
