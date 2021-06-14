@@ -12,12 +12,11 @@ With this template you will have a "Hello World" application, with a Test Suite 
   4. Open a browser and navigate to `localhost:3000` and thats it, the rest is up to you to create.
 
 Next, see the below sections to use other features that come with this starter template:
-  * [How to write/run tests](getting-started-with-testing)
-  * [How to use the linter](getting-started-with-linting)
+  * [How to write/run tests](#get-started-with-testing)
+  * [How to use the linter](#get-started-with-linting)
 
-### What is Included in this template?
 
-#### Getting Started with Testing
+#### Get Started with Testing
 This project comes preinstalled with the [Jest](https://github.com/facebook/jest) dependency. Jest is a hugely popular and easy to use test library. There are other testing libraries out there, but I find this to be easy to use and works well. 
 
 You can read more about Jest on their website [here](https://jestjs.io/).
@@ -26,7 +25,7 @@ A single test is included in this project and can be found in `test/index.spec.j
 
 To execute all the tests in the **/test** folder run `npm run test`
 
-#### Getting Started with Linting
+#### Get Started with Linting
 Many syntax errors/code mistakes can hide in Javascript. A linter will analyze your code in real time and report any problems it finds.
 
 This project uses a hugely popular library called [eslint](https://github.com/eslint/eslint). A basic set of lint rules have already been configured and you can find them or edit them in the file called `.eslintrc.js`
