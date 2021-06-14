@@ -13,8 +13,8 @@
   "author": "Gavin Vaske",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.28.0",
-    "jest": "^27.0.4"
+    "eslint": "7.28.0",
+    "jest": "27.0.4"
   },
   "dependencies": {
     "dotenv": "10.0.0",
