@@ -36,6 +36,8 @@ This linter can be executed by running `npm run lint`
 
 ## Preconfigured Scripts You Can Run
 
+This repo comes with a few scripts that are setup for you to use out of the box, below is a summary of each and every script that you have access to run and what it does.
+
   1. `npm run start`
       * Use this to start the application/server
   3. `npm run test`
@@ -45,4 +47,4 @@ This linter can be executed by running `npm run lint`
   7. `npm run fix-lint`
       * Attempts to fix simple eslint errors (i.e. missing semicolon, incorrect number of tab spaces, ect)
   9. `npm run verify`
-      * Runs both of the commands `npm run test` AND `npm run lint` at the same time. Great to use before commiting code!
+      * Runs both of the commands `npm run test` AND `npm run lint` at the same time. Great to use before commiting code! (Hint Hint 😉)
