@@ -55,3 +55,15 @@ This repo comes with a few scripts that are setup for you to use out of the box,
       * Attempts to fix simple eslint errors (i.e. missing semicolon, incorrect number of tab spaces, ect)
   9. `npm run verify`
       * Runs both of the commands `npm run test` AND `npm run lint` at the same time. Great to use before commiting code! (Hint Hint 😉)
+
+## What Dependencies are included in this template?
+This section describes all the dependencies that are included in this template. Some of the chosen dependencies have equivalent competitors, so the decision to use these is opion based. But from experience, the selected dependencies work very well, are hugely popular with a large community and have a minimal learning curve.
+
+  1. [Express.js](https://expressjs.com/)
+      * Used to easily create HTTP endpoints and much more. A dependency such as Express.js is a fundamental backbone to all/most Node.js applications
+  2. [Jest](https://github.com/facebook/jest)
+      * A framework for writing Tests for your application
+  4. [Dotenv](https://github.com/motdotla/dotenv)
+      * Whenever a `.env` file is used, you need this dependency to read to read it in
+  5. [eslint](https://eslint.org/)
+      * Used to analyze code and catch syntax or logic errors that may otherwise go unnoticed or cause issues
