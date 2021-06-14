@@ -2,7 +2,7 @@
 
 The goal of this repository is to offer a quick way to get up and running with a Node.Js already configured with the basics that all/most Node.JS projects require.
 
-With this template you will have a "Hello World" application, with a [Test Suite](#get-started-with-testing) hooked up, and a [linter](#get-started-with-linting) preconfigured to catch syntax errors, coding mistakes, ect.
+With this template you will have a "Hello World" application, with a [Test Suite](#get-started-with-testing) hooked up, and a [Linter](#get-started-with-linting) preconfigured to catch syntax errors, coding mistakes, ect.
 
 See [How to Run this Application](#how-to-run-this-application) next!
 
@@ -21,6 +21,7 @@ Next, see the below sections to use other features that come with this starter t
 All/most of the code that you will write for your project will live in the `application` folder.
 
 This is where you will create all the code needed for your application to run. If you are creating an API, your endpoints will go here. If you're creating a website, your HTML and css will go into folders which should live within the`/application` folder.
+
 Next, learn all about where to write tests in [this section](#get-started-with-testing) below
 
 
