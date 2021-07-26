@@ -1,12 +1,12 @@
 const express = require('express');
 require('dotenv').config();
 
-const defaultPort = 3000;
+const defaultPort = 8080;
 const PORT = process.env.PORT || defaultPort;
 
 const app = express();
 app.use('/', require('./controllers/index'));
 
 app.listen(PORT, () => {
-    console.log(`Server started listening on PORT ${PORT}. Visit http://localhost:3000 in your browser`);
+    console.log(`Server started listening on PORT ${PORT}. Visit http://localhost:${PORT} in your browser`);
 });
