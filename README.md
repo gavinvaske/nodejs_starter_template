@@ -56,6 +56,15 @@ This repo comes with a few scripts that are setup for you to use out of the box,
   9. `npm run verify`
       * Runs both of the commands `npm run test` AND `npm run lint` at the same time. Great to use before commiting code! (Hint Hint 😉)
 
+## Run the application with Docker.
+  1. [Download docker](https://docs.docker.com/get-docker/) onto your computer
+  2. Clone this repo if you have not already, then navigate to the root directory in a terminal window
+  3. Build a docker image of the application via the command: `docker build . -t <insert-image-name-here>`
+      - **Ex:** docker build . -t my_awesome_application
+  4. Run the docker image via: `docker run -p 49160:8080 <insert-image-name-here>`
+      - **Ex:** docker run -p 49160:8080 my_awesome_application
+  5. Visit `localhost:49160` to the application which is running in docker
+
 ## What Dependencies are included in this template?
 This section describes all the dependencies that are included in this template. Some of the chosen dependencies have equivalent competitors, so the decision to use these is opion based. But from experience, the selected dependencies work very well, are hugely popular with a large community and have a minimal learning curve.
 
